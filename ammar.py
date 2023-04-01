@@ -1124,7 +1124,7 @@ logo = """
          \033[1;37m$$$$$  /  $$$$$$$$ |$$$$$$$$ |$$ $$\$$ |
          \033[1;37m$$  $$<   $$  __$$ |$$  __$$ |$$ \$$$$ |
          \033[1;37m$$ |\$$\  $$ |  $$ |$$ |  $$ |$$ |\$$$ |
-         \033[1;37m$$ | \$$\ $$ |  $$ |$$ |  $$ |$$ | \$$ |\033[1;32m LPC\033[1;37m 
+         \033[1;37m$$ | \$$\ $$ |  $$ |$$ |  $$ |$$ | \$$ \033[1;32m LPC\033[1;37m 
 --------------------------------------------------
 [•] AUTHOR     : \033[1;32mAMMAR\033[1;37m
 [•] STATUS     : \033[1;32mPAID\033[1;37m
@@ -1159,7 +1159,7 @@ def dynamic(text):
 def rehan():
 	os.system('clear')
 	print(logo)
-	print('[1] FILE CLONING')
+	print('[1] RANDOM PAK CLONING')
 	print('[2] RANDOM BD CLONING')
 	print('[3] RANDOM CHOICE PASS CLONING')
 	print('[4] CONTACT WITH OWNER')
