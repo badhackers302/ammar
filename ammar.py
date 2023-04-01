@@ -1,3 +1,35 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@badhackers302 
+badhackers302
+/
+ammar
+Public
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+ammar/ammar.py /
+@badhackers302
+badhackers302 Create ammar.py
+…
+Latest commit 0e589c1 16 minutes ago
+ History
+ 1 contributor
+1559 lines (1424 sloc)  69.3 KB
+
 #coding=utf
 
 #YE LOL PE CHART TA 
@@ -1086,16 +1118,16 @@ for xd in range(10000):
     ugen.append(uaku2)
 
 logo = """
-         \033[1;37m ######     ###    ##    ##    ###    
-         \033[1;37m##    ##   ## ##   ###   ##   ## ##   
-         \033[1;37m##        ##   ##  ####  ##  ##   ##  
-         \033[1;37m ######  ##     ## ## ## ## ##     ## 
-         \033[1;37m      ## ######### ##  #### ######### 
-         \033[1;37m##    ## ##     ## ##   ### ##     ## 
-         \033[1;37m ######  ##     ## ##    ## ##     ## \033[1;32m LPC\033[1;37m 
+         \033[1;37m$$\   $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
+         \033[1;37m$$ | $$  |$$ |  $$ |$$  __$$\ $$$\  $$ |
+         \033[1;37m$$ |$$  / $$ |  $$ |$$ /  $$ |$$$$\ $$ |
+         \033[1;37m$$$$$  /  $$$$$$$$ |$$$$$$$$ |$$ $$\$$ |
+         \033[1;37m$$  $$<   $$  __$$ |$$  __$$ |$$ \$$$$ |
+         \033[1;37m$$ |\$$\  $$ |  $$ |$$ |  $$ |$$ |\$$$ |
+         \033[1;37m$$ | \$$\ $$ |  $$ |$$ |  $$ |$$ | \$$ |\033[1;32m LPC\033[1;37m 
 --------------------------------------------------
-[•] AUTHOR     : \033[1;32mSANA\033[1;37m
-[•] STATUS     : \033[1;32mFREE\033[1;37m
+[•] AUTHOR     : \033[1;32mAMMAR\033[1;37m
+[•] STATUS     : \033[1;32mPAID\033[1;37m
 --------------------------------------------------
 [•] \033[1;37mVERSION    :\033[1;32m 1.0.3 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
@@ -1127,7 +1159,7 @@ def dynamic(text):
 def rehan():
 	os.system('clear')
 	print(logo)
-	print('[1] RANDOM PAK CLONING')
+	print('[1] FILE CLONING')
 	print('[2] RANDOM BD CLONING')
 	print('[3] RANDOM CHOICE PASS CLONING')
 	print('[4] CONTACT WITH OWNER')
@@ -1557,3 +1589,18 @@ def approval():
     sys.exit()
 
 rehan()
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+ammar/ammar.py at main · badhackers302/ammar
