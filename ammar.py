@@ -1092,7 +1092,7 @@ logo = """
          \033[1;37m▓██ █▄ ░▓█ ░██ ░██▄▄▄▄██ ▓██▒  ▐▌██▒
          \033[1;37m▒██▒ █▄░▓█▒░██▓ ▓█   ▓██▒▒██░   ▓██░ 
          \033[1;37m▒ ▒▒ ▓▒ ▒ ░░▒░▒ ▒▒   ▓▒█░░ ▒░   ▒ ▒ 
-         \033[1;37m░ ░▒ ▒░ ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░ \033[1;32m AMMAR\033[1;37m 
+         \033[1;37m░ ░▒ ▒░ ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░ \033[1;32m A.K\033[1;37m 
 --------------------------------------------------
 [•] AUTHOR     : \033[1;32mAMMAR\033[1;37m
 [•] STATUS     : \033[1;32mFREE\033[1;37m
@@ -1131,7 +1131,7 @@ def rehan():
 	print('[2] RANDOM BD CLONING')
 	print('[3] RANDOM CHOICE PASS CLONING')
 	print('[4] CONTACT WITH OWNER')
-	print('[0] FILE CRACKING')
+	print('[0] CLOSE')
 	lines()
 	gh = input('[•] CHOOSE : ')
 	if gh =='1':
