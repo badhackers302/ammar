@@ -1097,7 +1097,7 @@ logo = """
 [•] AUTHOR     : \033[1;32mAMMAR\033[1;37m
 [•] STATUS     : \033[1;32mFREE\033[1;37m
 --------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 1.0.1 \033[1;37m"RAMZAN MUBARAK!"\033[1;37m
+[•] \033[1;37mVERSION    :\033[1;32m 1.1 \033[1;37m"RAMZAN MUBARAK!"\033[1;37m
 --------------------------------------------------"""
 
 def lines():
@@ -1141,7 +1141,7 @@ def rehan():
 	elif gh =='3':
 		chos()
 	elif gh =='4':
-		os.system('xdg-open https://www.facebook.com/Father0fhackers?mibextid=ZbWKwL')
+		os.system('xdg-open https://www.facebook.com/Father0fhackers')
 	elif gh =='0':
 		print('[•] THANKS FOR USE ')
 		time.sleep(3)
@@ -1522,7 +1522,7 @@ def fcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;97mSANA\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;97mKHAN\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
